@@ -1,4 +1,14 @@
-$(document).foundation();
+$(document).foundation({
+  orbit: {
+    animation: 'slide',
+    timer_speed: 2000,
+    pause_on_hover: true,
+    animation_speed: 500,
+    navigation_arrows: true,
+    bullets: true,
+    slide_number: false
+  }
+});
 
 $(document).ready(function() {
  
@@ -64,6 +74,9 @@ $(document).ready(function() {
     transitionStyle : false,
  
 });
- 
+
+
 });
+
+    $('#demoTab').easyResponsiveTabs();
 

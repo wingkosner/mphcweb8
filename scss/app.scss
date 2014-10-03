@@ -50,6 +50,11 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
 
 a {
 	font-weight: 700;
@@ -57,12 +62,44 @@ a {
 
 .contain-to-grid nav.top-bar, .top-bar-section ul {
 	//margin-bottom: 2px;
-	border-bottom: 1px solid $secondary-color;
+	border-bottom: $rule-style;
 }
 
-top-bar-section  li > a{
-	background: transparent !important;
+nav.top-bar {
+	height: 46px;
 }
+
+li #nav-1 {
+		background-image: url("/img/line-1.png");
+	background-repeat: no-repeat;
+	background-position: -15px;
+}
+
+li #nav-2 {
+	background-image: url("/img/line-2.png");
+	background-repeat: no-repeat;
+	background-position: -15px;
+}
+
+li #nav-3 {
+	background-image: url("/img/line-3.png");
+	background-repeat: no-repeat;
+	background-position: -15px;
+}
+
+li #nav-4 {
+	background-image: url("/img/line-4.png");
+	background-repeat: no-repeat;
+	background-position: -15px;
+}
+
+li #nav-5 {
+	background-image: url("/img/line-5.png");
+	background-repeat: no-repeat;
+	background-position: -15px;
+}
+
+//	  @include opacity(0.8);
 
 .branding {
 	margin-bottom: 20px;
@@ -79,7 +116,7 @@ top-bar-section  li > a{
 }
 
 .orbit-slides-container {
-	border: 1px solid $secondary-color;
+	border: $rule-style;
 	overflow: hidden;
 }
 
@@ -97,20 +134,31 @@ color: $secondary-color;
 border: 0 none;
 }
 
-.display-text p {
+.display-text {
 	font-size: rem-calc(23);
 	font-weight: 300;
 	color: $secondary-color;
 	padding-bottom: 20px;
-	padding-right: 40px;
-	margin-right: 30px;
-	border-right: 1px solid $secondary-color;
 	strong {
 		color: $primary-color;
 	}
 	a {
 		font-size: 70%;
 		text-transform: uppercase;
+		font-weight: 700;
+		padding-left: 1rem;
+	}
+}
+
+.display-text-2 {
+	font-size: rem-calc(23);
+	font-weight: 300;
+	color: $secondary-color;
+	padding-bottom: 20px;
+	strong {
+		color: $primary-color;
+	}
+	a {
 		font-weight: 700;
 		padding-left: 1rem;
 	}
@@ -127,8 +175,23 @@ border: 0 none;
 .size-60 { font-size: 60px; }
 .size-72 { font-size: 72px; }
 
+#vertical-divider-home {
+	position: absolute;
+	top: -20px;
+	width: 1px;
+	margin-right: 50%;
+	margin-left: 50%;
+	height: 420px;
+	background-color:   $secondary-color;
+}
+
 aside {
 	top: -20px;
+	border-left: $rule-style;
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+	padding-bottom: 2rem !important;
+
 		.slug {
 		background-color: $primary-color;
 		display: inline-block;
@@ -145,7 +208,6 @@ aside {
 	h4 { color: $secondary-color;
 		 font-weight: 600;
 }
-	p {font-size: 90%;}
 }
 
 .update img {
@@ -155,9 +217,15 @@ aside {
 .panel {
 	background: white;
 	border: none;
-	border-top: 1px solid $secondary-color;
-	border-bottom: 1px solid $secondary-color;
+	border-top: $rule-style;
+	border-bottom: $rule-style;
 	padding-bottom: .25rem;
+	padding-left: 0px;
+	h2 {
+	font-size: rem-calc(40);
+	font-weight: 600;
+	color: $primary-color;
+	}
 	h4 {
 	font-size: rem-calc(23);
 	font-weight: 600;
@@ -171,16 +239,50 @@ aside {
 	.button {
 		margin-top: 0px;
 	}
+	i {color: scale-color($primary-color, $lightness: -25%);
+	}
 }
 
 .call {
 	p strong {
-			font-size: rem-calc(23);
+	font-size: rem-calc(23);
 	font-weight: 600;
 	color: $primary-color;
 	}
+	h4 {
+		padding-top: .65rem;
+	}
 }
 
+.call-bar {
+	background: $primary-color;
+	padding-top: .5rem; 
+	margin-bottom: 2rem;
+}
+
+#call-bar-home {
+	margin-top: -2rem;
+}
+
+.call-bar label {
+	color: $white;
+	font-size: rem-calc(18);
+	letter-spacing: .05rem;
+	a {
+		margin-bottom: .5rem;
+		font-weight: 700;
+	}
+	}
+
+#ticker-slug {
+	position: relative;
+	left: 15px;
+	bottom: 25px;
+	margin-bottom: -20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: $secondary-color;
+}
 .ticker-slider .orbit-slides-container {
 	border: none;
 	height: 200px;
@@ -192,7 +294,167 @@ aside {
 }
 
 footer {
-	p, .vcard {
+	p, ul {
 	font-weight: 300;
+	font-size: rem-calc(16);
 }
 }
+
+.tab-title {
+	border-top: $rule-style;
+	border-right: $rule-style;
+	border-bottom: $rule-style;
+	&.active {
+	border-bottom: 0px;
+	}
+}
+
+.tab-title a {
+	font-weight: 400;
+}
+
+.tab-title.active a {
+	font-weight: 700 !important;
+}
+
+.tighten {
+	margin-top: -18px;
+}
+
+.headshot {
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+// Easy Resonsive Tabs (jQuery) css edited version below:
+
+.resp-tabs-list li {
+    font-weight: 600;
+	font-size: rem-calc(18);
+    display: inline-block;
+    padding: 13px 15px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+}
+
+.resp-tabs-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 15px;
+}
+
+.resp-tab-active {
+    border: $rule-style;
+    border-bottom: none;
+    margin-bottom: -1px !important;
+    padding: 12px 14px 14px 14px !important;
+    color: $primary-color;
+}
+
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    border: $rule-style;
+}
+
+h2.resp-accordion {
+	font-size: rem-calc(20);
+    border: $rule-style;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #FFF !important;
+}
+.resp-easy-accordion  h2.resp-accordion {
+        display: block;
+}
+.resp-easy-accordion .resp-tab-content {
+    border: $rule-style;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: $rule-style !important;
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: $rule-style !important;
+}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: $rule-style;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+    .resp-accordion-closed {
+        display:none !important;
+    }
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: $rule-style !important;
+    }
+}
+

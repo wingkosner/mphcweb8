@@ -2,6 +2,35 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "17908",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/easyResponsiveTabs\/easy-responsive-tabs.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/easyResponsiveTabs\/easy-responsive-tabs.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/easyResponsiveTabs\/easyResponsiveTabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/easyResponsiveTabs\/easyResponsiveTabs.js",
+		"outputAbbreviatedPath": "\/bower_components\/easyResponsiveTabs\/min\/easyResponsiveTabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/fastclick\/lib\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3638,6 +3667,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3672,6 +3710,17 @@
 		"initialSize": 10807,
 		"inputAbbreviatedPath": "\/img\/AAO.png",
 		"outputAbbreviatedPath": "\/img\/AAO.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/APA-2014-Dr-Stahl-signing-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207570,
+		"inputAbbreviatedPath": "\/img\/APA-2014-Dr-Stahl-signing-2.jpg",
+		"outputAbbreviatedPath": "\/img\/APA-2014-Dr-Stahl-signing-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3742,6 +3791,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/kayetengco-circle-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9764,
+		"inputAbbreviatedPath": "\/img\/kayetengco-circle-bw.jpg",
+		"outputAbbreviatedPath": "\/img\/kayetengco-circle-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/line-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 628,
+		"inputAbbreviatedPath": "\/img\/line-1.png",
+		"outputAbbreviatedPath": "\/img\/line-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/line-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2219,
+		"inputAbbreviatedPath": "\/img\/line-2.png",
+		"outputAbbreviatedPath": "\/img\/line-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/line-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2691,
+		"inputAbbreviatedPath": "\/img\/line-3.png",
+		"outputAbbreviatedPath": "\/img\/line-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/line-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3125,
+		"inputAbbreviatedPath": "\/img\/line-4.png",
+		"outputAbbreviatedPath": "\/img\/line-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/line-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3360,
+		"inputAbbreviatedPath": "\/img\/line-5.png",
+		"outputAbbreviatedPath": "\/img\/line-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/martinhill-circle-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6802,
+		"inputAbbreviatedPath": "\/img\/martinhill-circle-bw.jpg",
+		"outputAbbreviatedPath": "\/img\/martinhill-circle-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/meet-our-team.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37509,
+		"inputAbbreviatedPath": "\/img\/meet-our-team.jpg",
+		"outputAbbreviatedPath": "\/img\/meet-our-team.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mphc-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3764,6 +3901,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pub-covers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 529523,
+		"inputAbbreviatedPath": "\/img\/pub-covers.png",
+		"outputAbbreviatedPath": "\/img\/pub-covers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/rachelinger-circle-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10865,
+		"inputAbbreviatedPath": "\/img\/rachelinger-circle-bw.jpg",
+		"outputAbbreviatedPath": "\/img\/rachelinger-circle-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/RDP.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3771,6 +3930,17 @@
 		"initialSize": 12635,
 		"inputAbbreviatedPath": "\/img\/RDP.png",
 		"outputAbbreviatedPath": "\/img\/RDP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Rolodex-And-Contacts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10434,
+		"inputAbbreviatedPath": "\/img\/Rolodex-And-Contacts.jpg",
+		"outputAbbreviatedPath": "\/img\/Rolodex-And-Contacts.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3830,6 +4000,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/slide-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141305,
+		"inputAbbreviatedPath": "\/img\/slide-4.png",
+		"outputAbbreviatedPath": "\/img\/slide-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/stephaniericks-circle-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9285,
+		"inputAbbreviatedPath": "\/img\/stephaniericks-circle-bw.jpg",
+		"outputAbbreviatedPath": "\/img\/stephaniericks-circle-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/TFM.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3883,6 +4075,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/marketing-agency.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/marketing-agency.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/publishing-consultancy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/publishing-consultancy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -3926,6 +4136,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
+		},
+	"\/team.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/team.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
