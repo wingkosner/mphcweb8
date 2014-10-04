@@ -6999,6 +6999,10 @@ aside {
   height: 200px;
   overflow: hidden; }
 
+.owl-item div img {
+  margin-right: auto;
+  margin-left: auto; }
+
 .main-slider {
   margin-bottom: -20px; }
 
